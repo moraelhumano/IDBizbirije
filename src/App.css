@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #f1f5f9;
+}
+
+p{
+  margin: 0;
+}
+
+nav{
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3F51B5;
+}
+
+nav img{
+  width: 35%;
+}
+
+
+input::-webkit-datetime-edit-year-field {
+  color: #999;
+}
+
+input::-webkit-datetime-edit-day-field {
+  color: #999;
+}
+
+input::-webkit-datetime-edit-month-field {
+  color: #999;
+}
+
+input::-webkit-datetime-edit-slash-field {
+  color: #999;
+}
+
+input:focus{
+  border:none;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+input[type="date"]:before {
+  content: attr(placeholder) !important;
+  color: #aaa;
+  margin-right: 0.5em;
+}
+input[type="date"]:focus:before,
+input[type="date"]:valid:before {
+  content: "";
+}
+
+input[type=text], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+ 
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+input[type=date]{
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+
+input[type=date]:focus, input:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+#mora-photo{
+  width: 40%;
+}
+
+#background-home{
+  background-image: url('../src/LLBG.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.input-form{
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 0 15px;
+}
+
+.input-form:focus{
+  border: 2px solid #3F51B5;
+}
+
+.recorte-video{
+  clip-path: inset(0 50px 0px 50px);
+}
+
+
+.button-photo{
+  height: 50px;
+  width: 190px;
+  background-color: #FF5252;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1 !important;
+}
+
+.button-photo:focus{
+  outline: none;
+}
+
+
+.background-input{
+  background: radial-gradient(circle, rgba(123,66,166,1) 0%, rgba(65,38,92,1) 50%, rgba(65,38,92,1) 100%);
+}
+
+.App {
+  text-align: center;
+}
+
+.credential{
+  background-image: url("IdBorreamigo.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.credential-info{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.credential-foto{
+  width: 135px;
+  height: 276px;
+  display: flex;
+  align-items: center;
+  padding-left: 24.5px;
+  padding-top: 39px;
+}
+
+.credential-foto img{
+  width: 100%;
+  height: 49%;
+  display: flex;
+}
+
+.margirn-name{
+  margin-top: 19px;
+}
+
+.credential-font{
+  font-size: 30px;
+}
+
+.recorteVideo{
+  Clip-path: inset(32px 150px 0px 108px);
+}
+
+.credential-info{
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  width: 100%;
+}
+
+.image-id-content{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 60px;
+  padding-top: 8px;
+}
+
+.credential-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 18px;
+  color: #000;
+  line-height: 20px;
+  width: 52%;
+}
+
+.credential-nivel{
+  font-size: 20px;
+}
+
+
+.logoNivel{
+  width: 100px;
+  height: 100px;
+}
+
+
+.texto-bienvenida-container{
+  width: 100%;
+  color: #d2d2d2;
+  display: flex;
+  justify-content: center;
+}
+
+.text-food{
+  position: absolute;
+  top: 364.2px;
+  padding-left: 11px;
+  font-size: 17px;
+}
+
+.margirn-top-zero{
+  margin-top: 0 !important;
+}
+
+.margirn-bottom-zero{
+  margin-bottom: 0 !important;
+}
+
+
+.bg-primary-dark{
+  background-color: #0B0D17;
+}
+
+.font-red{
+  color: #FF5252;
+}
+
+
+.footer-logo{
+  width: 60%;
+}
