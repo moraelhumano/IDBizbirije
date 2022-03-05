@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import borreLogo from '../logoBorre.png';
+import BizbirijeLogo from '../logoBizbirije.png';
 
 import {
     BrowserRouter as Router,
@@ -16,9 +16,9 @@ class Navbar extends Component {
 
         return(
             <>
-                <nav className="shadow-lg md:justify-between md:px-6 sm:justify-center">
+                <nav className=" justify-center">
                     <Link to="/">
-                        <img className="nav w-32" src={borreLogo} />
+                        <img className="nav w-12" src={BizbirijeLogo} />
                     </Link>
                 </nav>
             </>
